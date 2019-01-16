@@ -20,7 +20,9 @@ var roster = [];
 
 var API_KEY = "AIzaSyBAVdY6W4eW-Up1t53nAKlqDp1FHiJL_VM";
 var CLIENT_ID = "523456694441-v0mpgb9n57o11u1r87jfugo826mh8iqp.apps.googleusercontent.com";
-var SCOPE = "https://www.googleapis.com/auth/spreadsheets https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/drive";
+//var SCOPE = "https://www.googleapis.com/auth/spreadsheets https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/drive";
+var SCOPE = "https://www.googleapis.com/auth/spreadsheets";
+
 
 function initBuzzcards() {
     gapi.load("client:auth2", () => {
